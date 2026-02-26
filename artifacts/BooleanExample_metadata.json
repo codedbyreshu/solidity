@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code/bool.sol": "BooleanExample"
+			"codeclass/day2/bool.sol": "BooleanExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"code/bool.sol": {
+		"codeclass/day2/bool.sol": {
 			"keccak256": "0x0f0cab07363df705c234bbbe38ec0679584cac8964aab1274808ef973118dd26",
 			"license": "MIT",
 			"urls": [

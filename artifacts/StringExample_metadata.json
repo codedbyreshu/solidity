@@ -77,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code/string.sol": "StringExample"
+			"codeclass/day2/string.sol": "StringExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -91,7 +91,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"code/string.sol": {
+		"codeclass/day2/string.sol": {
 			"keccak256": "0x01fddf4faf2f6d4724c75b4b447fdd8c6e925495ebf8e2584821f4dc25831343",
 			"license": "MIT",
 			"urls": [

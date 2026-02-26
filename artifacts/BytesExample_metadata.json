@@ -77,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"code/bytes.sol": "BytesExample"
+			"codeclass/day2/bytes.sol": "BytesExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -91,7 +91,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"code/bytes.sol": {
+		"codeclass/day2/bytes.sol": {
 			"keccak256": "0xecb8e856e5303ca0760fec281267dc70d26e3a30050136331abef1a63139cfbd",
 			"license": "MIT",
 			"urls": [

@@ -94,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"codeassignments/intanduint.sol": "IntegerExample"
+			"codeclass/day2/intanduint.sol": "IntegerExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -108,7 +108,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"codeassignments/intanduint.sol": {
+		"codeclass/day2/intanduint.sol": {
 			"keccak256": "0xea4e446408f20c48c3c3065638222f78f1934d3af47ade532216050e4dbc58d8",
 			"license": "MIT",
 			"urls": [
