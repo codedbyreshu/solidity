@@ -1,0 +1,104 @@
+📝 *Solidity Assignment – Basic Data Types*
+🔹 *Question 1 – Integer (uint & int)*
+Create a contract named FinanceTracker.
+Requirements:
+Store:
+uint public totalBalance
+int public profitOrLoss
+Add a function deposit(uint amount) to increase balance.
+Add a function updateProfit(int amount) to update profit or loss.
+Add a function getStatus() that returns both values.
+
+👉 Test Case:
+Deposit 500
+Update profit -200
+Check final values
+
+🔹 *Question 2 – Boolean Control*
+Create a contract named ContractStatus.
+Requirements:
+Create bool public isActive
+Constructor should set it to true
+Create:
+activate()
+deactivate()
+toggleStatus()
+Add a function restrictedAction() that only works if contract is active (use require())
+
+👉 Test Case:
+Deactivate contract
+Try calling restricted function
+Observe revert message
+
+🔹 *Question 3 – String Operations*
+Create a contract named UserProfile.
+Requirements:
+Store string public username
+Create:
+setUsername(string memory _name)
+getLength()
+compare(string memory _other)
+Use keccak256 for comparison.
+
+👉 Test Case:
+Set username to "Blockchain"
+Compare with "Blockchain" → true
+Compare with "Crypto" → false
+
+🔹 *Question 4 – Bytes Handling*
+Create a contract named DataStorage.
+Requirements:
+Store bytes public data
+Create:
+setData(string memory _text)
+getLength()
+getByte(uint index) with require() validation
+Return a single byte using bytes1
+
+👉 Test Case:
+Set data = "HELLO"
+Get byte at index 1 → should return "E"
+Try index 10 → should revert
+
+📝 *Question 5:  SmartProfile Finance Contract*
+🎯 Contract Name: SmartProfileFinance
+🔹 Requirements
+Create one Solidity contract that includes:
+1️⃣ Finance Section (uint & int)
+uint public balance
+int public profitOrLoss
+Function deposit(uint amount) → Increase balance
+Function updateProfit(int amount) → Update profit/loss
+2️⃣ Contract Status (bool)
+bool public isActive
+Constructor sets it to true
+Function toggleStatus() → Switch true/false
+All finance functions should work only if contract is active
+(Use require())
+3️⃣ User Profile (string)
+string public username
+Function setUsername(string memory _name)
+Function getUsernameLength()
+Function compareUsername(string memory _other)
+(Use keccak256)
+4️⃣ Raw Data Section (bytes)
+bytes public data
+Function setData(string memory _text)
+Function getDataLength()
+Function getByte(uint index) with validation
+5️⃣ Final Function
+Create a function:
+function getFullDetails()
+That returns:
+balance
+profitOrLoss
+isActive
+username
+🧪 Test Scenario
+Set username = "Techara"
+Deposit 1000
+Update profit -200
+Store data = "HELLO"
+Toggle contract → false
+Try deposit again → should revert
+Compare username with "Techara" → true
