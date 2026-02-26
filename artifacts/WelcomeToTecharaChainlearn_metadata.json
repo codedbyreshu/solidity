@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"class practice/day1/WelcomeToTecharachainlearn.sol": "WelcomeToTecharaChainlearn"
+			"codeclass/day1/WelcomeToTechara.sol": "WelcomeToTecharaChainlearn"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"class practice/day1/WelcomeToTecharachainlearn.sol": {
+		"codeclass/day1/WelcomeToTechara.sol": {
 			"keccak256": "0x2279661c1ac6765404b2d2f52676fd2dbf093e200eccf2b8803559d023c7a774",
 			"license": "MIT",
 			"urls": [
